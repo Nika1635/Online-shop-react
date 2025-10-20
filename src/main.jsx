@@ -4,7 +4,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import Index from './routes/index/index.jsx'
 import Products from './routes/products/products.jsx'
-import Navbar from './components/navbar/navbar.jsx'
+import Navbar from './components/navbar/Nvbar.jsx'
 
 const router = createBrowserRouter( [
   {path:"/", element:<Index/>},
