@@ -1,0 +1,55 @@
+.index-hero{
+    background-color: #222831;
+    width: 100%;
+    color: #EEEEEE;
+}
+
+.index-banner {
+  position: relative;
+  background-image: url('./images/lifestyle_pagehero_1920x600_v5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: darken;
+  padding: 250px 15%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.index-banner > h1{
+    max-width: 650px;
+}
+
+.index-banner::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  pointer-events: none;
+}
+
+.index-banner-button{
+  width: 100px;
+  height: 50px;
+  transition: 0.3s;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid #393E46;
+  color: #EEEEEE;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.index-banner-button:hover{
+  background-color: #393E46;
+  color: #00ADB5;
+}
+
+
+

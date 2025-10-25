@@ -1,9 +1,13 @@
 import { Link } from "react-router-dom"
-import "./styles.css"
+import "./index.css"
 
 
 export default function Index(){
-    return <>
-        <a><Link to="/products">Go to products</Link></a>
-    </>
-} 
+    return <div className="index-hero">
+        <div className="index-banner">
+            <h1>Discover Everything You Need From Fashion to Home Essentials</h1>
+            <p>Shop Smarter, Live Better</p>
+            <Link className="index-banner-button" to="/products">Shop Now!</Link>
+        </div>
+    </div>
+}   

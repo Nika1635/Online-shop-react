@@ -1,7 +1,25 @@
-h1{
-    color: black;
+nav{
+    background-color: #393E46;
+    display: flex;
+    color: #EEEEEE
 }
 
-nav{
-    background-color: aqua;
+.navbar-hero{
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar-list-item{
+    text-decoration: solid;
+    color: #EEEEEE;
+    transition: 0.3s;
+}
+
+.navbar-list-item:hover{
+    color: #00ADB5;
+}
+
+
+a{
+    color: black;
 }
