@@ -1,7 +1,9 @@
 nav{
     background-color: #393E46;
     display: flex;
-    color: #EEEEEE
+    justify-content: space-between;
+    color: #EEEEEE;
+    padding-inline: 1%;
 }
 
 .navbar-hero{
@@ -10,16 +12,73 @@ nav{
 }
 
 .navbar-list-item{
-    text-decoration: solid;
+    text-decoration: none;
     color: #EEEEEE;
-    transition: 0.3s;
+    transition: 0.5s;
+    padding: 20px 15px;
+    border-inline: 1px #393E46 solid;
 }
 
 .navbar-list-item:hover{
     color: #00ADB5;
+    border-inline: 1px #007c83 solid;
+}
+
+.navbar-list{
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
 }
 
 
 a{
     color: black;
+}
+
+.icon-list{
+    text-decoration: none;
+    color: #EEEEEE;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-inline: 1px #393E46 solid;
+}
+
+.icon-list > i{
+    cursor: pointer;
+    font-size: 17px;
+    transition: 0.5s;
+    border-inline: 1px #393E46 solid;
+    padding: 21px;
+}
+
+.icon-list > i:hover{
+    color: #00ADB5;
+    border-inline: 1px #007c83 solid;
+    
+}
+
+.search-hero{
+    display: flex;
+    align-self: center;
+    border-bottom: 1px #2b2f35 solid;
+    gap: 10px;
+    padding-bottom: 5px;
+    padding-inline: 3px;
+    transition: 0.5s;
+}
+
+.search-hero > input{
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+    color: #bbbec4;
+}
+
+
+.search-hero:focus-within {
+    padding-inline: 12px;
+    padding-bottom:7px;
+    border-bottom: 1px #707681 solid;
 }
